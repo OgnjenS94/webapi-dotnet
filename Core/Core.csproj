@@ -5,12 +5,11 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <PostSharpRuntimeVerificationEnabled>True</PostSharpRuntimeVerificationEnabled>
-  </PropertyGroup>
-
-  <PropertyGroup>
+    <PostSharpRuntimeVerificationEnabled>False</PostSharpRuntimeVerificationEnabled>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
+
+
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="9.5.3" />
